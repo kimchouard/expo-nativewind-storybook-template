@@ -1,6 +1,8 @@
 {
   "name": "expo-nativewind-template-storybook",
-  "version": "1.0.0",
+  "description": "An Expo template with NativeWind styling & Storybook (incl. React Native & Web)",
+  "version": "1.0.1",
+	"author": "Kim Chouard",
   "main": "node_modules/expo/AppEntry.js",
   "license": "MIT",
   "scripts": {
@@ -69,5 +71,4 @@
       "react-docgen-typescript": "2.2.2"
     }
   },
-  "private": true
 }
