@@ -1,6 +1,8 @@
-This a Expo boilerplate to design React Native Components for Web and Native using NativeWind & Reanimated.
+# Storybook - Expo NativeWind Boilerplate
 
-This is based on [dannyhw/expo-template-storybook: An expo template for react native storybook](https://github.com/dannyhw/expo-template-storybook) with NativeWind on top. 🧂
+React Native Expo boilerplate to design RN Components with [Storybook](https://storybook.js.org/), for Native **AND** Web, using [NativeWind](https://www.nativewind.dev/v4/overview) styling (Reanimated included for animations).
+
+This is based on [dannyhw/expo-template-storybook](https://github.com/dannyhw/expo-template-storybook) with NativeWind on top. 🧂
 
 ![image](https://user-images.githubusercontent.com/3481514/145904252-92e3dc1e-591f-410f-88a1-b4250f4ba6f2.png)
 
@@ -20,7 +22,7 @@ yarn start
 
 # Storybook
 
-To start the storybook instance, you have 2 options:
+To start the Storybook instance, you have 2 options:
 - ondevice: run the React Native version of your components. Best for: native, but works for web as well (no hot-reloading on the web)
 - web: run a full Storybook version with more advanced features, including hot-reloading for Web. Doesn't run on native devices.
 
