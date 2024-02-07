@@ -9,7 +9,7 @@ This is based on [dannyhw/expo-template-storybook](https://github.com/dannyhw/ex
 # Getting Started
 
 ```sh
-npx create-expo-app --template expo-template-storybook AwesomeStorybook
+npx create-expo-app --template expo-nativewind-template-storybook AwesomeStorybookForAllPlatforms
 ```
 
 # App
