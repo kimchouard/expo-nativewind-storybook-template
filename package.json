@@ -46,7 +46,7 @@
     "@storybook/addon-ondevice-backgrounds": "^7.6.14",
     "@storybook/addon-ondevice-controls": "^7.6.14",
     "@storybook/addon-ondevice-notes": "^7.6.14",
-    "@storybook/addon-react-native-web": "^0.0.22",
+    "@storybook/addon-react-native-web": "0.0.23",
     "@storybook/react": "^7.6.12",
     "@storybook/react-native": "^7.6.14",
     "@storybook/react-webpack5": "^7.6.12",

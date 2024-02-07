@@ -2851,10 +2851,10 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-react-native-web@^0.0.22":
-  version "0.0.22"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.22.tgz#71b37d73fb34ada87c3a616cf5d885b342057603"
-  integrity sha512-KUgDPsiNNuSpKOq0w57gI79OwgK8yTiLug0qRku2u3RaUdrEj6flRsa6i9Vsd5MXxluBaSc97s413bpD8+wtug==
+"@storybook/addon-react-native-web@0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.23.tgz#2ec1309ee8e68bb10531de6c058814640027c79c"
+  integrity sha512-8cdtU1WmV2Nl8tyqh2POsyYowtyyUEOuO08/DOsgMKd1Wr5k8MlglnJ7inczBg6QGancosQWImotqap8dpBCYQ==
 
 "@storybook/addon-toolbars@7.6.13":
   version "7.6.13"

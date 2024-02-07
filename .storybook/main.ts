@@ -13,14 +13,21 @@ module.exports = {
       name: '@storybook/addon-react-native-web',
       options: {
         modulesToTranspile: [
-          'nativewind',
-          // 'react-native-css-interop', // Needed?
           'react-native-reanimated',
+          'nativewind',
+          'react-native-css-interop',
         ],
+        babelPresets: ['nativewind/babel'],
+        babelPresetReactOptions: { jsxImportSource: 'nativewind' },
         babelPlugins: [
-          '@babel/plugin-proposal-export-namespace-from',
           'react-native-reanimated/plugin',
-          'nativewind/babel', // This is what makes it crash
+          [
+            '@babel/plugin-transform-react-jsx',
+            {
+              runtime: 'automatic',
+              importSource: 'nativewind',
+            },
+          ],
         ],
       },
     },
@@ -45,7 +52,7 @@ module.exports = {
           }
         }
       ],
-      include: path.resolve(__dirname, '../')
+      include: path.resolve(__dirname, '../') // path to project root
     })
 
     return {
