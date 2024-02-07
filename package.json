@@ -17,17 +17,23 @@
     "storybook:android": "cross-env STORYBOOK_ENABLED='true' expo start --android"
   },
   "dependencies": {
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@react-native-async-storage/async-storage": "1.21.0",
     "@react-native-community/datetimepicker": "7.6.1",
     "@react-native-community/slider": "4.4.2",
+    "autoprefixer": "^10.4.17",
     "expo": "~50.0.4",
     "expo-constants": "~15.4.5",
     "expo-status-bar": "~1.11.1",
+    "nativewind": "^4.0.1",
+    "postcss-loader": "^8.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.2",
+    "react-native-reanimated": "^3.6.2",
     "react-native-safe-area-context": "4.8.2",
-    "react-native-web": "~0.19.10"
+    "react-native-web": "~0.19.10",
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",

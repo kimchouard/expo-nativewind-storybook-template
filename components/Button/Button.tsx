@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import { Pressable, Text, StyleSheet } from "react-native";
 
 interface MyButtonProps {
   onPress: () => void;
@@ -8,19 +8,11 @@ interface MyButtonProps {
 
 export const MyButton = ({ onPress, text }: MyButtonProps) => {
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress}>
-      <Text style={styles.text}>{text}</Text>
-    </TouchableOpacity>
+    <Pressable
+      className="self-center px-8 py-2 bg-sky-700 rounded-lg web:hover:bg-sky-600 native:active:bg-sky-600"
+      onPress={onPress}
+    >
+      <Text className="text-white text-lg font-bold">{text}</Text>
+    </Pressable>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    paddingHorizontal: 32,
-    paddingVertical: 8,
-    backgroundColor: "purple",
-    alignSelf: "flex-start",
-    borderRadius: 8,
-  },
-  text: { color: "white", fontSize: 16, fontWeight: "bold" },
-});

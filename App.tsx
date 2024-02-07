@@ -1,6 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 import Constants from "expo-constants";
 
+// Import your global CSS file
+import "./global.css";
+
 function App() {
   return (
     <View style={styles.container}>

@@ -1,3 +1,6 @@
+// Import your global CSS file
+import "../global.css"
+
 import { withBackgrounds } from "@storybook/addon-ondevice-backgrounds";
 import type { Preview } from "@storybook/react";
 
